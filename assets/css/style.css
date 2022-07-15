@@ -114,7 +114,6 @@ footer {
                             "grid-card"
                             "grid-card"
                             "grid-card";
-
 }
 
 @media (min-width:576px) {
@@ -144,6 +143,28 @@ footer {
 
     }
 }
+
+.footer-1 {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    grid-row: auto auto auto auto;
+    grid-template-areas:    "Information"
+                            "Service"
+                            "Extras"
+                            "Account";
+}
+
+@media (min-width:576px) {
+    .footer-1 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: "Information Service Extras Account";
+
+    }
+}
+
+
 
 
 .shipping {
