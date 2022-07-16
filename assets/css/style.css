@@ -99,6 +99,10 @@ footer {
     border: 0px;
 }
 
+.grid-cat {
+    min-width: 200px;
+}
+
 #grid-card {
     display:grid;
 
